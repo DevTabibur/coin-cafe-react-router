@@ -6,6 +6,7 @@ import Header from './Components/Header/Header';
 import Homepage from './Components/HomePage/HomePage';
 import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer.jsx';
+import CoinDetails from './Components/CoinDetails/CoinDetails';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Homepage/>}></Route>
         <Route path='/coins' element={<Coins/>}></Route>
+        <Route path='/coin-details/:id' element={<CoinDetails/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/about' element={<About/>}></Route>
         <Route path='*' element={<NotFound/>}></Route>
