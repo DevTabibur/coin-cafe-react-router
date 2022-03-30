@@ -1,6 +1,6 @@
 import React from 'react'
 
-const UsAddress = () => {
+const USAddress = () => {
   return (
     <div className='border p-8 bg-green-100 w-full'>
       <div className='flex justify-between items-center'>
@@ -18,4 +18,4 @@ const UsAddress = () => {
   )
 }
 
-export default UsAddress;
+export default USAddress;
